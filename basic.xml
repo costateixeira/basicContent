@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-	<id value="PDQm"/>
-	<url value="http://www.ihe.net/fhir/PDQm"/>
+	<id value="basic"/>
+	<url value="http://www.ihe.net/fhir/basic"/>
 	<version value="3.6.0"/>
-	<name value="Implementation Guide for IHE PDQm profile"/>
+	<name value="Basic Implementation Guide"/>
 	<experimental value="false"/>
 	<date value="2017-07-05T00:00:00.000+02:00"/>
 	<publisher value="IHE"/>
-	<description value="Lightweight RESTful query interface to a patient demographics supplier."/>
+	<description value="RESTful interface..."/>
 	<jurisdiction>
 		<coding>
 			<system value="urn:iso:std:iso:3166"/>
 			<code value="US"/>
 		</coding>
 	</jurisdiction>
-	<packageId value="ihe.fhir.pdqm"/>
+	<packageId value="ihe.fhir.basic"/>
 	<definition>
 		<package>
 			<name value="Package1"/>
